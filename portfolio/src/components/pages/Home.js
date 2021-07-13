@@ -1,21 +1,29 @@
-import React from 'react';
+import React from "react";
+import Image from "../images/profile_img.jpg";
 
 export default function Home() {
   return (
-    <div>
-      <h1>About</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
-    </div>
+    <section>
+      <h2>About me</h2>
+      <div className="about_info_container">
+        <img
+          alt="Raul_picture"
+          className="profile_img"
+          src={Image}
+        />
+        <p>
+          Creative and passionate designer with an established Digital Design
+          experience alongside a vast amount of knowledge within marketing and
+          advertising. Including a multiple skill set that compliments the
+          disciplines of Design, programming and UX. Currently I am studying Full
+          Stack Developer at University of Manchester. 
+        </p>  
+        <p>
+          Moving forward I am looking
+          for a challenging position as a developer, in which my passion for
+          digital industry and experience will be valued.
+        </p>      
+      </div>
+    </section>
   );
 }

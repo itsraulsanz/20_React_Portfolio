@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Project() {
+export default function Projects() {
   return (
     <div>
-      <h1>Project Page</h1>
+      <h1>Projects</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet

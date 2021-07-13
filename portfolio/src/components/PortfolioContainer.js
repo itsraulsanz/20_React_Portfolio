@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
+import Header from './pages/Header';
 import Home from './pages/Home';
-import Project from './pages/Project';
+import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
@@ -13,8 +14,8 @@ export default function PortfolioContainer() {
     if (currentPage === 'Home') {
       return <Home />;
     }
-    if (currentPage === 'Project') {
-      return <Project />;
+    if (currentPage === 'Projects') {
+      return <Projects />;
     }
     if (currentPage === 'Resume') {
       return <Resume />;
@@ -26,10 +27,14 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      {/* We are passing the currentPage from state and the function to update it */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
+    <header>
+      <Header />
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} /> 
+    </header>
+    <main>
       {renderPage()}
-    </div>
+    </main>       
+    </div>      
+
   );
 }
