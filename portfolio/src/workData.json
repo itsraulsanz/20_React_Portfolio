@@ -1,0 +1,139 @@
+{
+  "main": {
+    "name": "Raul Sanz",
+    "description": "Full-Stack Developer / Designer",
+    "bio1": "Creative and passionate designer with an established Digital Design experience alongside a vast amount of knowledge within marketing and advertising. Including a multiple skill set that compliments the disciplines of Design, programming and UX. Currently I am studying Full Stack Developer at University of Manchester.",
+    "bio2": "Moving forward I am looking for a challenging position as a developer, in which my passion for digital industry and experience will be valued.",
+    "contactmessage": "Feel free to contact me via email, this form, or LinkedIn",
+    "email": "sanzdiaz.raul@gmail.com",
+    "phone": "+44 (0)7731592441",
+    "github": "https://github.com/itsraulsanz",
+    "linkedin": "https://linkedin.com/in/raulsd",
+    "address": {
+      "city": "Manchester",
+      "country": "UK"
+    },
+    "website": "https://github.com/itsraulsanz",
+    "resumedownload": "pdf/RaulSanz_CV.pdf",
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/itsraulsanz",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/raulsd/",
+        "className": "fa fa-linkedin"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "University of Manchester",
+        "grade": "A+ Academic Average",
+        "degree": "Coding Bootcamp Certificate",
+        "graduated": "August 2021",
+        "description": "Coursework: HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, Handlebars, React.js, Node.js, Database Theory, MongoDB, MySQL, Git"
+      },
+      {
+        "school": "ESDi - Ramon Llull University of Sabadell",
+        "grade": "B",
+        "degree": "Bachelor's of Electronic Art and Digital Design",
+        "graduated": "August 2009",
+        "description": "Coursework: Front-End Web Development (HTML, CSS, JavaScript, PHP), Web and Graphic Design, Motion Graphic and video edition."
+      }
+    ],
+    "work": [
+      {
+        "company": "JD Sports",
+        "location": "Manchester",
+        "title": "Graphic Designer",
+        "years": "2018 - Present",
+        "description": "Designing and producing artwork, layouts and campaigns across all online channels: email, company websites, apps and web banners"
+      },
+      {
+        "company": "LOLA Mullen LOWE",
+        "location": "Barcelona",
+        "title": "Visual Designer",
+        "years": "2014 - 2017",
+        "description": "Worked mainly for SEAT designing campaigns for online and print: websites, landing pages, banners, mailers, newsletters, prints, billboards."
+      },
+      {
+        "company": "Emailing Network",
+        "location": "Barcelona",
+        "title": "Web Designer & Front-End",
+        "years": "2011 - 2014",
+        "description": "Design and programming email, using A/B testing to enhance the conversion. Brand design, website and newsletter prototypes for clicplan.com and oferting.es"
+      },
+      {
+        "company": "Ogilvy & Mather",
+        "location": "Barcelona",
+        "title": "Web Designer & Front-End",
+        "years": "2009 - 2011",
+        "description": "Designing and programming of e-mail campaigns, newsletters, banners, landing pages and website updates for clients such as Nestle, Amstel, CaixaBank..."
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML / CSS / Bootstrap",
+        "level": "90%"
+      },
+      {
+        "name": "Database",
+        "level": "50%"
+      },
+      {
+        "name": "Github",
+        "level": "80%"
+      },
+      {
+        "name": "NodeJS / ExpressJS",
+        "level": "80%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "90%"
+      },
+      {
+        "name": "Photoshop",
+        "level": "90%"
+      },
+      {
+        "name": "Illustrator / Indesign",
+        "level": "90%"
+      },
+      {
+        "name": "Adobe XD / Sketch",
+        "level": "90%"
+      }
+    ],
+    "personal-skills": [
+      "Creativity",
+      "Problem-Solving",
+      "Self-upskilling",
+      "Innovative"
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Pose-It",
+        "description": "Fashion App designed to let users build up a wardrobe of inspiration on their digital device. A full stack web development application, it allows users to record outfits, uploads photos and details, filter all user posts to find outfits to match their specific criteria, save them to their personal dashboard and delete any items that they are no longer interested in.",
+        "image": "project_8.jpg",
+        "technology": "Node.js, Express.js, Handlebars.js, MySQL, Sequelize ORM, CSS, Git Hub.",
+        "url": "https://pose-it-app.herokuapp.com/",
+        "repo": "https://github.com/itsraulsanz/pose-it-app"
+      },
+      {
+        "title": "Blog",
+        "description": "A CMS-style blog site where users can publish their blog posts and comment on other developers’ posts as well. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.",
+        "image": "project_7.jpg",
+        "technology": "Node.js, Express.js, Handlebars.js, MySQL, Sequelize ORM, CSS, Git Hub.",
+        "url": "https://raul-tech-blog.herokuapp.com/",
+        "repo": "https://github.com/itsraulsanz/Raul-Blog"
+      }    
+    ]
+  }
+}
