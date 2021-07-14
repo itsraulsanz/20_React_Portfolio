@@ -2,6 +2,7 @@
     --body: #0f2531;
     --primary: white;
     --dark: rgb(12 14 14);
+    --secondary: #7c91cc;
 }
 
 body {
@@ -122,4 +123,22 @@ section p {
     height: auto;
     margin: 0 25px 0px 0;
     display: inline;
+}
+
+.card-img {
+    width: 50%;
+    height: fit-content;
+    padding-right: 20px;
+}
+
+.card-body {
+    flex: 0 0 45%;
+    padding: 0 0 0 30px;
+    border-left: 1px solid;
+}
+
+.btn-primary {
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
+    margin-right: 20px;
 }

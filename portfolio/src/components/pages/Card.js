@@ -5,20 +5,21 @@ var projectImage = '../images/projects/' + props.image;
   return (
       
     <div>
-      <div className="card">
+      <section>
         <img
-          className="card-img-top"
+          className="card-img"
           src={projectImage}
           alt={props.title}
         />
-        
-      </div>
-      <div className="card-body">
+        <div className="card-body">
           <h3 className="card-title">{props.title}</h3>
           <p className="card-text">{props.description}</p>
-          <a href={props.url} className="btn btn-primary">Deployed app</a>
-          <a href={props.repo} className="btn btn-primary">Repository</a>
+          <p className="card-subtitle">Technology used:</p>
+          <p><i>{props.technology}</i></p>
+          <a href={props.url} rel='noopener noreferrer' target="_blank" className="btn btn-primary">Deployed app</a>
+          <a href={props.repo} rel='noopener noreferrer' target="_blank" className="btn btn-primary">Repository</a>
         </div>
+      </section>
     </div>
   );
 }

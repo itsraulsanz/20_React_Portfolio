@@ -133,7 +133,39 @@
         "technology": "Node.js, Express.js, Handlebars.js, MySQL, Sequelize ORM, CSS, Git Hub.",
         "url": "https://raul-tech-blog.herokuapp.com/",
         "repo": "https://github.com/itsraulsanz/Raul-Blog"
-      }    
+      },
+      {
+        "title": "Note-Taker",
+        "description": "Application to write and save notes. This application uses an Express.js back end and saves and retrieves note data from a JSON file.",
+        "image": "project_6.jpg",
+        "technology": "Express.js, HTML, CSS, Git Hub.",
+        "url": "https://murmuring-island-71920.herokuapp.com/",
+        "repo": "https://github.com/itsraulsanz/Note-Taker"
+      },
+      {
+        "title": "Hammered Horror",
+        "description": "The Hammered Horror application is a web-based film generator application. During the pandemic people are watching a lot more films. As a team we decided to develop an application based on the Horror genre",
+        "image": "project_5.jpg",
+        "technology": "HTML, CSS, Frameworks, JavaScript, API’s, Git Hub.",
+        "url": "https://itsraulsanz.github.io/trilogy-film-project/index.html",
+        "repo": "https://github.com/itsraulsanz/trilogy-film-project"
+      },
+      {
+        "title": "Weather Dashboard",
+        "description": "Weather outlook for multiple cities that shows the current and the weather for the next 5 days. It's built using [OpenWeather API] to retrieve weather data for cities.",
+        "image": "project_4.jpg",
+        "technology": "HTML, CSS, Frameworks, JavaScript, API’s, Git Hub.",
+        "url": "https://itsraulsanz.github.io/weather-forecast/",
+        "repo": "https://github.com/itsraulsanz/weather-forecast"
+      },
+      {
+        "title": "Work Day Scheduler",
+        "description": "Calendar application that allows a user to save events for each business hour of the day. The current day and hour is displayed in the header. Each timeblock is colored indicating whether it is in the past, present, or future.",
+        "image": "project_3.jpg",
+        "technology": "HTML, CSS, Frameworks, JavaScript, Git Hub.",
+        "url": "https://itsraulsanz.github.io/plan-your-day/",
+        "repo": "https://github.com/itsraulsanz/plan-your-day"
+      }   
     ]
   }
 }

@@ -1,7 +1,8 @@
 import React from "react";
-import Image from "../images/profile_img.jpg";
 
 export default function Home() {
+  var profileImage = '../images/profile_img.jpg';
+
   return (
     <section>
       <h2>About me</h2>
@@ -9,7 +10,7 @@ export default function Home() {
         <img
           alt="Raul_picture"
           className="profile_img"
-          src={Image}
+          src={profileImage}
         />
         <p>
           Creative and passionate designer with an established Digital Design
@@ -19,9 +20,7 @@ export default function Home() {
           Stack Developer at University of Manchester. 
         </p>  
         <p>
-          Moving forward I am looking
-          for a challenging position as a developer, in which my passion for
-          digital industry and experience will be valued.
+          Moving forward I am looking for a challenging position as a developer, in which my passion for digital industry and experience will be valued.
         </p>      
       </div>
     </section>
