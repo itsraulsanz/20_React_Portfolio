@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/itsraulsanz/RaulPortfolio/static/css/main.74a1f0c9.chunk.css",
+    "main.js": "/itsraulsanz/RaulPortfolio/static/js/main.b37b1aa0.chunk.js",
+    "main.js.map": "/itsraulsanz/RaulPortfolio/static/js/main.b37b1aa0.chunk.js.map",
+    "runtime-main.js": "/itsraulsanz/RaulPortfolio/static/js/runtime-main.9f00675f.js",
+    "runtime-main.js.map": "/itsraulsanz/RaulPortfolio/static/js/runtime-main.9f00675f.js.map",
+    "static/css/2.c7c38acd.chunk.css": "/itsraulsanz/RaulPortfolio/static/css/2.c7c38acd.chunk.css",
+    "static/js/2.ccb67685.chunk.js": "/itsraulsanz/RaulPortfolio/static/js/2.ccb67685.chunk.js",
+    "static/js/2.ccb67685.chunk.js.map": "/itsraulsanz/RaulPortfolio/static/js/2.ccb67685.chunk.js.map",
+    "index.html": "/itsraulsanz/RaulPortfolio/index.html",
+    "static/css/2.c7c38acd.chunk.css.map": "/itsraulsanz/RaulPortfolio/static/css/2.c7c38acd.chunk.css.map",
+    "static/css/main.74a1f0c9.chunk.css.map": "/itsraulsanz/RaulPortfolio/static/css/main.74a1f0c9.chunk.css.map",
+    "static/js/2.ccb67685.chunk.js.LICENSE.txt": "/itsraulsanz/RaulPortfolio/static/js/2.ccb67685.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f00675f.js",
+    "static/css/2.c7c38acd.chunk.css",
+    "static/js/2.ccb67685.chunk.js",
+    "static/css/main.74a1f0c9.chunk.css",
+    "static/js/main.b37b1aa0.chunk.js"
+  ]
+}
