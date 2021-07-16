@@ -142,3 +142,33 @@ section p {
     border-color: var(--secondary) !important;
     margin-right: 20px;
 }
+
+.resume {
+    width: 40%;
+    align-content: flex-start;
+}
+
+.resume h2 {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 0;
+    font-size: 2vw;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.title {
+    width: 100%;
+}
+
+.level {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: '20px';
+    background-color: var(--secondary);
+    font-size: '10px';
+}
