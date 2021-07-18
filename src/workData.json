@@ -109,11 +109,18 @@
         "level": "90%"
       }
     ],
-    "personal_skills": [
+    "personalSkills": [
       "Creativity",
       "Problem-Solving",
       "Self-upskilling",
       "Innovative"
+    ],
+    "languages": ["English", "Spanish", "Catalan"],
+    "hobbies": [
+      "Traveling",
+      "Music, gigs, festivals",
+      "Art, photography",
+      "Cinema, TV Shows"
     ]
   },
   "portfolio": {
@@ -165,7 +172,7 @@
         "technology": "HTML, CSS, Frameworks, JavaScript, Git Hub.",
         "url": "https://itsraulsanz.github.io/plan-your-day/",
         "repo": "https://github.com/itsraulsanz/plan-your-day"
-      }   
+      }
     ]
   }
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Header from './pages/Header';
+import Footer from './pages/Footer';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
@@ -33,7 +34,10 @@ export default function PortfolioContainer() {
     </header>
     <main>
       {renderPage()}
-    </main>       
+    </main>     
+    <footer>
+      <Footer />
+    </footer>
     </div>      
 
   );
