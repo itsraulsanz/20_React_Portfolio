@@ -310,7 +310,7 @@ section p {
   justify-content: flex-start;
   align-items: stretch;
   align-content: stretch;
-  width: 40%;
+  min-width: 70%;
   margin-left: 7%;
 }
 
@@ -321,4 +321,60 @@ section p {
 .form .btn-primary {
   margin-top: 15px;
   width: 30%;
+}
+
+@media only screen and (max-width: 450px) {
+  header {
+    display: grid;
+  }
+  header h1 {
+    font-size: 12vw;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  section {
+    flex-direction: column;
+  }
+  section h2 {
+    text-align: left;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid;
+    border-right: 0;
+    font-size: 7vw;
+  }
+  .card-img {
+    width: 100%;
+  }
+  .card-title {
+    font-size: 6vw;
+  }
+  .card-body {
+    margin: 0;
+    padding: 10px;
+    border: 0;
+  }
+  .container {
+    margin: 0;
+    padding: 0 20px 0 20px;
+  }
+  .resume {
+    width: 100%;
+  }
+  .resume h2 {
+    font-size: 5vw;
+  }
+  .resume h3 {
+    font-size: 3vw;
+  }
+  .form {
+    width: auto;
+  }
+  .form .btn-primary {
+    width: auto;
+  }
+  address ul {
+    flex-direction: column;
+  }
 }
