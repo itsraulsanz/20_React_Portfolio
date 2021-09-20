@@ -14,7 +14,7 @@ export default function Footer() {
         <ul>
           <li>
             <a href={email} rel="noopener noreferrer" target="_blank">
-              contact@designraul.com
+              {WorkData.main.email}
             </a>
           </li>
           <li>
