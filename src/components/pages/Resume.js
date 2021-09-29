@@ -7,11 +7,11 @@ export default function Resume() {
   if (WorkData.resume) {
     var education = WorkData.resume.education.map(function (education) {
       return (
-        <div class="timeline" key={education.school}>
-          <div class="date_line">
+        <div className="timeline" key={education.school}>
+          <div className="date_line">
             <em className="date">{education.graduated}</em>
           </div>
-          <div class="details">
+          <div className="details">
             <h3>{education.degree}</h3>
             {education.school}
             <p>{education.description}</p>
@@ -22,13 +22,13 @@ export default function Resume() {
 
     var work = WorkData.resume.work.map(function (work) {
       return (
-        <div class="timeline" key={work.company}>
-          <div class="date_line">
+        <div className="timeline" key={work.company}>
+          <div className="date_line">
             <em className="date">{work.years}</em>
             <br />
             {work.company}
           </div>
-          <div class="details">
+          <div className="details">
             <h3>{work.title}</h3>
             <p>{work.description}</p>
           </div>
@@ -36,15 +36,15 @@ export default function Resume() {
       );
     });
 
-    var skills = WorkData.resume.skills.map(function (skills) {
+    var skills = WorkData.resume.skills.map(function (skills, index) {
       var level = skills.level;
       const styles = {
         width: level,
       };
 
       return (
-        <li key={skills.name}>
-          <div class="skill_title">{skills.name}</div>
+        <li key={index}>
+          <div className="skill_title">{skills.name}</div>
           <div style={{ background: "white", width: "100%" }}>
             <div className="level" style={styles}>
               {level}
@@ -55,35 +55,35 @@ export default function Resume() {
     });
 
     var personalSkills = WorkData.resume.personalSkills.map(function (
-      personalSkills
+      personalSkills, index
     ) {
       return (
-        <li key={personalSkills}>
-          <div class="skill_title">{personalSkills}</div>
+        <li key={index}>
+          <div className="skill_title">{personalSkills}</div>
         </li>
       );
     });
 
-    var languages = WorkData.resume.languages.map(function (languages) {
+    var languages = WorkData.resume.languages.map(function (languages, index) {
       return (
-        <li key={languages}>
-          <div class="skill_title">{languages}</div>
+        <li key={index}>
+          <div className="skill_title">{languages}</div>
         </li>
       );
     });
 
-    var hobbies = WorkData.resume.hobbies.map(function (hobbies) {
+    var hobbies = WorkData.resume.hobbies.map(function (hobbies, index) {
       return (
-        <li key={hobbies}>
-          <div class="skill_title">{hobbies}</div>
+        <li key={index}>
+          <div className="skill_title">{hobbies}</div>
         </li>
       );
     });
   }
 
   return (
-    <section class="container">
-      <div class="cv">
+    <section className="container">
+      <div className="cv">
         Download the resume{" "}
         <a
           href={cvFile}
@@ -93,7 +93,7 @@ export default function Resume() {
           here
         </a>
       </div>
-      <div class="resume">
+      <div className="resume">
         <div className="row education">
           <div className="title">
             <h2>Education</h2>
@@ -124,7 +124,7 @@ export default function Resume() {
         </div>
       </div>
 
-      <div class="resume">
+      <div className="resume">
         <div className="row work">
           <div className="title">
             <h2>Work Experience</h2>

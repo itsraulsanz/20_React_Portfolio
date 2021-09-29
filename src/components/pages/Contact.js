@@ -84,7 +84,7 @@ export default function Contact() {
         </div>
       </section>
 
-      <section class="contact">
+      <section className="contact">
         <h2>Form</h2>
         <form className="form">
           <input
@@ -109,7 +109,7 @@ export default function Contact() {
             placeholder="Message"
           />
           <button
-            class="btn btn-primary"
+            className="btn btn-primary"
             type="button"
             onClick={handleFormSubmit}
           >
