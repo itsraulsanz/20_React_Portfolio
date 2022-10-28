@@ -304,6 +304,16 @@ section p {
   justify-content: start;
 }
 
+.contact-details ul {
+  margin: 0;
+  padding: 0;
+  list-style: none !important;
+}
+
+.contact-details {
+  margin-left: 7% !important;
+}
+
 .form {
   display: flex;
   flex-direction: column;

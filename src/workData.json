@@ -2,9 +2,20 @@
   "main": {
     "name": "Raul Sanz",
     "description": "Full-Stack Developer / Designer",
-    "bio1": "Creative and passionate designer with an established Digital Design experience alongside a vast amount of knowledge within marketing and advertising. Including a multiple skill set that compliments the disciplines of Design, programming and UX. Currently I am studying Full Stack Developer at University of Manchester.",
-    "bio2": "Moving forward I am looking for a challenging position as a developer, in which my passion for digital industry and experience will be valued.",
-    "contactmessage": "Feel free to contact me via email, this form, or LinkedIn",
+    "bio": [
+      {
+        "text": "Web developer with both backend and frontend experience, looking for roles where I can build new products and improve existing ones using new technologies."
+      },
+      {
+        "text": "Previous experience in design, UX and product management. Passionate about tech, creativity and innovation."
+      },
+      {
+        "text": "My strengths are creativity, teamwork, and building projects from ideation to execution."
+      }
+    ],
+
+
+    "contactmessage": "Feel free to contact me via email, the form, or LinkedIn",
     "email": "sanzdiaz.raul@gmail.com",
     "phone": "+44 (0)7731592441",
     "github": "https://github.com/itsraulsanz",
@@ -35,14 +46,14 @@
         "grade": "A+ Academic Average",
         "degree": "Coding Bootcamp Certificate",
         "graduated": "August 2021",
-        "description": "Coursework: HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, Handlebars, React.js, Node.js, Database Theory, MongoDB, MySQL, Git"
+        "description": "An intensive 6-month boot camp dedicated to building web applications. Skills learned consisted of HTML5, CSS3, Javascript, JQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handelbars.js and ReactJS."
       },
       {
         "school": "ESDi - Ramon Llull University of Sabadell",
-        "grade": "B",
+        "grade": "2.1 Equivalent",
         "degree": "Bachelor's of Electronic Art and Digital Design",
         "graduated": "August 2009",
-        "description": "Coursework: Front-End Web Development (HTML, CSS, JavaScript, PHP), Web and Graphic Design, Motion Graphic and video edition."
+        "description": "The degree developed skills in design, programming and animation including modules on: HTML, CSS, Javascript, PHP, XML, Databases and Flash ActionScript."
       }
     ],
     "work": [
@@ -51,28 +62,28 @@
         "location": "Manchester",
         "title": "Graphic Designer",
         "years": "2018 - Present",
-        "description": "Designing and producing artwork, layouts and campaigns across all online channels: email, company websites, apps and web banners"
+        "description": "Managed and developed international campaigns for brands such as Nike and Adidas across: email, on-site banners, apps and social media. Created layouts and templates to optimise designs and work flow."
       },
       {
         "company": "LOLA Mullen LOWE",
         "location": "Barcelona",
         "title": "Visual Designer",
         "years": "2014 - 2017",
-        "description": "Worked mainly for SEAT designing campaigns for online and print: websites, landing pages, banners, mailers, newsletters, prints, billboards."
+        "description": "Developed original solutions for clients such as Seat, while maintaining creative, technical and brand standards. Designed campaigns for online and print across websites, landing pages, banners, mailers, prints and billboards."
       },
       {
         "company": "Emailing Network",
         "location": "Barcelona",
         "title": "Web Designer & Front-End",
         "years": "2011 - 2014",
-        "description": "Design and programming email, using A/B testing to enhance the conversion. Brand design, website and newsletter prototypes for clicplan.com and oferting.es"
+        "description": "Designed and programmed emails, using A/B testing to enhance click-through conversion and optimise outcomes. Rebranded clicplan.com and oferting.es which drove international sales growth."
       },
       {
         "company": "Ogilvy & Mather",
         "location": "Barcelona",
         "title": "Web Designer & Front-End",
         "years": "2009 - 2011",
-        "description": "Designing and programming of e-mail campaigns, newsletters, banners, landing pages and website updates for clients such as Nestle, Amstel, CaixaBank..."
+        "description": "Designed and programmed segmented email campaigns, landing pages, animated banners, and website updates for clients such as Nestle, Amstel and CaixaBank."
       }
     ],
     "skills": [
@@ -81,11 +92,11 @@
         "level": "90%"
       },
       {
-        "name": "Database",
+        "name": "SQL, NoSQL",
         "level": "50%"
       },
       {
-        "name": "Github",
+        "name": "Github, Heroku",
         "level": "80%"
       },
       {
@@ -94,6 +105,18 @@
       },
       {
         "name": "JavaScript",
+        "level": "90%"
+      },
+      {
+        "name": "React",
+        "level": "90%"
+      },
+      {
+        "name": "GraphQL",
+        "level": "70%"
+      },
+      {
+        "name": "APIs",
         "level": "90%"
       },
       {
@@ -125,6 +148,14 @@
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "Castaway",
+        "description": "Podcasting app designed to make the search and navigation easier.",
+        "image": "project_9.png",
+        "technology": "MERN stack set up, with Apollo Server and graphQL.",
+        "url": "https://podcastaway-app.herokuapp.com",
+        "repo": "https://github.com/itsraulsanz/castaway-app"
+      },
       {
         "title": "Pose-It",
         "description": "Fashion App designed to let users build up a wardrobe of inspiration on their digital device. A full stack web development application, it allows users to record outfits, uploads photos and details, filter all user posts to find outfits to match their specific criteria, save them to their personal dashboard and delete any items that they are no longer interested in.",

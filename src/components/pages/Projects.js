@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div>
       {WorkData.portfolio.projects.map((projects) => (
-        <Card title={projects.title} description={projects.description} image={projects.image} technology={projects.technology} url={projects.url} repo={projects.repo} />
+        <Card key={projects.title} title={projects.title} description={projects.description} image={projects.image} technology={projects.technology} url={projects.url} repo={projects.repo} />
       ))}
     </div>
   );
