@@ -37,19 +37,19 @@ export default function Resume() {
     });
 
     var skills = WorkData.resume.skills.map(function (skills, index) {
-      var level = skills.level;
-      const styles = {
-        width: level,
-      };
+      // var level = skills.level;
+      // const styles = {
+      //   width: level,
+      // };
 
       return (
         <li key={index}>
           <div className="skill_title">{skills.name}</div>
-          <div style={{ background: "white", width: "100%" }}>
+          {/* <div style={{ background: "white", width: "100%" }}>
             <div className="level" style={styles}>
               {level}
             </div>
-          </div>
+          </div> */}
         </li>
       );
     });
@@ -84,13 +84,12 @@ export default function Resume() {
   return (
     <section className="container">
       <div className="cv">
-        Download the resume{" "}
         <a
-          href={cvFile}
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          here
+            href={cvFile}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+        Download the resume{" "} here
         </a>
       </div>
       <div className="resume">

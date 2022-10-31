@@ -57,7 +57,7 @@ export default function Contact() {
   return (
     <div>
       <section className="contact">
-        <h2>Contact details</h2>
+        <div className="contact-title"><h2>Contact details</h2></div>
         <div className="contact-details">
           <p>{WorkData.main.contactmessage}</p>
           <ul>
@@ -85,7 +85,7 @@ export default function Contact() {
       </section>
 
       <section className="contact">
-        <h2>Form</h2>
+        <div className="contact-title"><h2>Form</h2></div>
         <form className="form">
           <input
             value={email}

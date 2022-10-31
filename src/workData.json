@@ -4,13 +4,13 @@
     "description": "Full-Stack Developer / Designer",
     "bio": [
       {
-        "text": "Web developer with both backend and frontend experience, looking for roles where I can build new products and improve existing ones using new technologies."
+        "text": "Enthusiastic full stack developer with a strong background in graphic design. I am looking for my next professional opportunity, where I can contribute to building great products using the best engineering practices and make a difference utilising my large web and UX designer experience whilst I continue growing my career and expanding my skill set."
       },
       {
-        "text": "Previous experience in design, UX and product management. Passionate about tech, creativity and innovation."
+        "text": "My main areas of expertise include React JS, CSS with Sass, semantic HTML5, static site generators (Gatsby JS), responsive and adaptive web, vanilla Javascript, SEO, web design and web optimisation."
       },
       {
-        "text": "My strengths are creativity, teamwork, and building projects from ideation to execution."
+        "text": "In addition to my developer experience and qualifications, I have spent over ten years of my career working in design, UX and product management for a wide variety of industries such as banking, retail, automobile and food. I am passionate about technology, creativity and innovation. My strengths are project management, collaboration and end-to-end delivery of projects."
       }
     ],
 
@@ -58,10 +58,17 @@
     ],
     "work": [
       {
+        "company": "eComplete",
+        "location": "Manchester",
+        "title": "Web Developer",
+        "years": "2022 - Present",
+        "description": "Creation of the eComplete.com site using Gatsby.js, Contentful and Netlify, paying special attention to the site performance and accessibility, with a Lighthouse score of 100%. Developed multiple international stores using Shopify, liquid and Sasss. Making the themes totally customazible for the clients with personalized global components. Supporting the team on how to build new global components and deliver a responsive product with a clean structure and code."
+      },
+      {
         "company": "JD Sports",
         "location": "Manchester",
         "title": "Graphic Designer",
-        "years": "2018 - Present",
+        "years": "2018 - 2021",
         "description": "Managed and developed international campaigns for brands such as Nike and Adidas across: email, on-site banners, apps and social media. Created layouts and templates to optimise designs and work flow."
       },
       {
@@ -88,55 +95,59 @@
     ],
     "skills": [
       {
-        "name": "HTML / CSS / Bootstrap",
-        "level": "90%"
+        "name": "HTML / CSS"
       },
       {
-        "name": "SQL, NoSQL",
-        "level": "50%"
+        "name": "Javascript"
       },
       {
-        "name": "Github, Heroku",
-        "level": "80%"
+        "name": "React.js"
       },
       {
-        "name": "NodeJS / ExpressJS",
-        "level": "80%"
+        "name": "RESTful API Development"
       },
       {
-        "name": "JavaScript",
-        "level": "90%"
+        "name": "Node"
       },
       {
-        "name": "React",
-        "level": "90%"
+        "name": "ExpressJS"
       },
       {
-        "name": "GraphQL",
-        "level": "70%"
+        "name": "GraphQL"
       },
       {
-        "name": "APIs",
-        "level": "90%"
+        "name": "SQL, NoSQL"
       },
       {
-        "name": "Photoshop",
-        "level": "90%"
+        "name": "Git flow"
       },
       {
-        "name": "Illustrator / Indesign",
-        "level": "90%"
+        "name": "CI/CD deployment"
       },
       {
-        "name": "Adobe XD / Sketch",
-        "level": "90%"
+        "name": "Agile"
+      },
+      {
+        "name": "Shopify, Wordpress, BigCommerce"
+      },
+      {
+        "name": "Gatsby.js"
+      },
+      {
+        "name": "Contentful"
+      },
+      {
+        "name": "Netlify"
+      },
+      {
+        "name": "UI/UX"
       }
     ],
     "personalSkills": [
+      "Adobe XD, Skecth, Figma",
+      "Photoshop, Illustrator",
       "Creativity",
-      "Problem-Solving",
-      "Self-upskilling",
-      "Innovative"
+      "Problem-Solving"
     ],
     "languages": ["English", "Spanish", "Catalan"],
     "hobbies": [
