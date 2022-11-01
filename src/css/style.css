@@ -151,7 +151,7 @@ nav.mobile ul {
   flex-direction: column;
   align-items: flex-end;
   padding-right: 15px;
-  margin-top: 30px;
+  margin-top: 23px;
   width: 100vw;
   height: 100vh;
   background-color: rgba(12, 14, 14, 0.9);
@@ -176,6 +176,10 @@ nav.mobile li {
 details > summary:first-of-type {
   display: block;
   padding-right: 33px;
+}
+
+details>summary {
+  list-style: none;
 }
 
 details[open] > summary .icon-hamburger {
