@@ -143,6 +143,49 @@ nav ul {
   padding: 0;
 }
 
+.mobile {
+  display: none;
+}
+
+nav.mobile ul {
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 15px;
+  margin-top: 30px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(12, 14, 14, 0.9);
+}
+
+nav.mobile li {
+  margin-bottom: 12px;
+}
+
+.icon-close {
+  display: none;
+}
+
+.icon-close svg {
+  fill: #ffffff;
+}
+
+.icon-hamburger {
+  stroke: #fff;
+}
+
+details > summary:first-of-type {
+  display: block;
+  padding-right: 33px;
+}
+
+details[open] > summary .icon-hamburger {
+  display: none;
+}
+
+details[open] > summary .icon-close {
+  display: block;
+}
+
 nav li {
   list-style: none;
   display: inline-block;
@@ -343,15 +386,10 @@ section p {
 }
 
 @media only screen and (max-width: 450px) {
-  header {
-    display: grid;
-  }
   header h1 {
     font-size: 12vw;
   }
-  nav ul {
-    flex-direction: column;
-  }
+
   section {
     flex-direction: column;
   }
@@ -399,5 +437,14 @@ section p {
 @media only screen and (max-width: 800px) {
   .resume {
     width: 100%;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    position: absolute;
+    right: 0;
+    text-align: right;
   }
 }

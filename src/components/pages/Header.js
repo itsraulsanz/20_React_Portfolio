@@ -1,12 +1,13 @@
 import React from "react";
-import WorkData from "../../workData.json";
-
+var logo = "../images/logo.svg";
 
 export default function Header() {
   
   return (
     <div>
-      <h1>{WorkData.main.name}</h1>
+      <div>
+        <img alt="logo" className="logo" src={logo} />
+      </div>
     </div>
   );
 }
