@@ -1,0 +1,284 @@
+/* RESUME_container */
+
+section.resume {
+    justify-content: center;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.resume_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .resume_container h2 {
+    text-align: left;
+    padding-bottom: 10px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid;
+    border-right: none;
+
+    &::before { 
+        display: block; 
+        content: " "; 
+        margin-top: -140px; 
+        height: 140px; 
+        visibility: hidden; 
+        pointer-events: none;
+    }
+  }
+  
+  .resume_container h3 {
+    font-size: 1rem;
+  }
+  
+  .resume_container .row {
+    margin: 0 0 60px;
+
+    &.work {
+        max-width: 88%;
+    }
+    &.education {
+        background: rgba(255, 255, 255, 0.8);
+        color: black;
+        padding: 6%;
+    }
+    &.personal_Skill {
+        margin: 0 0 48px;
+    }
+
+  }
+  
+  .cv {
+    width: inherit;
+    padding-bottom: 30px;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+
+    &:last-child .details {
+        margin-bottom: 0;
+    }
+
+    @media only screen and (max-width: 500px) {
+        flex-direction: column;
+        border-left: 1px solid;
+    }
+  }
+  
+  .title {
+    width: 100%;
+  }
+
+  .date_container {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 500px) {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .date {
+        padding-right: 30px;
+
+        @media only screen and (max-width: 500px) {
+            padding-left: 20px;
+            margin-top: -10px;
+            padding-right: 0;
+        }
+
+        @media only screen and (max-width: 350px) {
+            h3.title {
+                width: 100%;
+                font-size: 0.9rem;
+            }
+    
+            h3.date-text {
+                width: 100%;
+                justify-content: flex-start;
+                font-size: 0.8rem;
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+        p.date {
+            width: 100%;
+            padding-right: 0;
+        }
+        p.location {
+            font-weight: 100;
+            font-size: 14px;
+        }
+    }
+  }
+
+  .row.work .date_container .date {
+    @media only screen and (max-width: 500px) {
+        padding-left: 20px;
+        margin-top: -8px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-bottom: 12px;
+
+            h3.title {
+                width: 60%;
+                margin: 0;
+            }
+
+            p {
+                padding: 0;
+            }
+            h3.date-text {
+                width: 40%;
+                display: flex;
+                justify-content: flex-end;
+                margin: 0;
+            }
+            p.location {
+                font-weight: 100;
+                font-size: 14px;
+            }
+    }
+
+    @media only screen and (max-width: 350px) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        h3.title {
+            width: 100%;
+            font-size: 0.9rem;
+        }
+
+        h3.date-text {
+            width: 100%;
+            justify-content: flex-start;
+            font-size: 0.8rem;
+        }
+    }
+  }
+  
+  .date_line {
+    border-right: 1px solid;
+    position: relative;
+    margin-top: 6px;
+    margin-bottom: -6px;
+  }
+
+  .bullet {
+    height: 12px;
+    width: 12px;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    position: absolute;
+    left: -5px;
+
+    @media only screen and (max-width: 500px) {
+        left: -6px;
+        top: -9px;
+    }
+  }
+  
+  .details {
+    width: 65%;
+    margin-bottom: 25px;
+
+    @media only screen and (max-width: 500px) {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    p {
+        font-weight: 200;
+        margin-bottom: 5px;
+    }
+  }
+
+  .skills_container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 88%;
+
+    @media only screen and (max-width: 500px) {
+        flex-direction: column;
+    }
+
+    .skills_left {
+        width: 45%;
+
+        @media only screen and (max-width: 500px) {
+            width: 100%;
+
+            .row {
+                margin: 0 0 20px;
+            }
+        }
+    }
+    .skills_right {
+        width: 48%;
+
+        @media only screen and (max-width: 500px) {
+            width: 100%;
+
+            .row {
+                margin: 0 0 20px;
+            }
+        }
+    }
+  }
+  
+  .skills_list {
+    width: 100%;
+  }
+  
+  .skills {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 15px;
+    justify-content: center;
+  }
+  
+  .skill_title {
+    width: auto;
+    padding: 5px 10px;
+    background-color: var(--secondary);
+    border-radius: 8px;
+    text-align: center;
+
+    @media only screen and (max-width: 400px) {
+        font-size: 0.7rem;
+    }
+  }
+  
+  .level {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: var(--secondary);
+    height: 100%;
+    font-size: 0.8rem;
+    padding-left: 5px;
+  }
+  
+  .resume_container li {
+    list-style: none;
+    display: flex;
+    padding-bottom: 10px;
+    width: auto;
+  }

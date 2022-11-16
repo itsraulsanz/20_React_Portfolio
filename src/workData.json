@@ -4,13 +4,13 @@
     "description": "Full-Stack Developer / Designer",
     "bio": [
       {
-        "text": "Web developer with both backend and frontend experience, looking for roles where I can build new products and improve existing ones using new technologies."
+        "text": "Enthusiastic full stack developer with a strong background in graphic design. I am looking for my next professional opportunity, where I can contribute to building great products using the best engineering practices and make a difference utilising my large web and UX designer experience whilst I continue growing my career and expanding my skill set."
       },
       {
-        "text": "Previous experience in design, UX and product management. Passionate about tech, creativity and innovation."
+        "text": "My main areas of expertise include React JS, CSS with Sass, semantic HTML5, static site generators (Gatsby JS), responsive and adaptive web, vanilla Javascript, SEO, web design and web optimisation."
       },
       {
-        "text": "My strengths are creativity, teamwork, and building projects from ideation to execution."
+        "text": "In addition to my developer experience and qualifications, I have spent over ten years of my career working in design, UX and product management for a wide variety of industries such as banking, retail, automobile and food. I am passionate about technology, creativity and innovation. My strengths are project management, collaboration and end-to-end delivery of projects."
       }
     ],
 
@@ -58,85 +58,96 @@
     ],
     "work": [
       {
+        "company": "eComplete",
+        "location": "Manchester",
+        "title": "Web Developer",
+        "years": "2022 - Present",
+        "description": "<p>Building <a href='https://eComplete.com' target='_blank'>eComplete.com</a> site using Gatsby.js, Contentful and Netlify, paying special attention to the site performance and accessibility, with a Lighthouse score of 100%.</p> <p>Developed multiple international stores using Shopify, liquid and Sasss: <a href='https://uk.vegamour.com' target='_blank'>uk.vegamour.com</a>, <a href='https://14daymanicure.com' target='_blank'>14daymanicure.com</a>, <a href='https://tmlewin.co.uk/' target='_blank'>tmlewin.co.uk</a>. Making the themes totally customazible for the clients with personalized global components.</p> <p>Supporting the team on how to build new global components and deliver a responsive product with a clean structure and code.</p>"
+      },
+      {
         "company": "JD Sports",
         "location": "Manchester",
         "title": "Graphic Designer",
-        "years": "2018 - Present",
-        "description": "Managed and developed international campaigns for brands such as Nike and Adidas across: email, on-site banners, apps and social media. Created layouts and templates to optimise designs and work flow."
+        "years": "2018 - 2021",
+        "description": "<p>Managed and developed international campaigns for brands such as Nike and Adidas across: email, on-site banners, apps and social media - <a href='https://www.jdsports.co.uk/' target='_blank'>jdsports.co.uk</a>.</p> <p>Created layouts and templates to optimise designs and work flow.</p>"
       },
       {
         "company": "LOLA Mullen LOWE",
         "location": "Barcelona",
-        "title": "Visual Designer",
+        "title": "Graphic Designer",
         "years": "2014 - 2017",
-        "description": "Developed original solutions for clients such as Seat, while maintaining creative, technical and brand standards. Designed campaigns for online and print across websites, landing pages, banners, mailers, prints and billboards."
+        "description": "<p>Developed original solutions for clients such as Seat, while maintaining creative, technical and brand standards.</p> <p>Designed campaigns for online and print across websites, landing pages, banners, mailers, prints and billboards for <a href='https://www.seat.es/' target='_blank'>seat.es</a>.</p>"
       },
       {
         "company": "Emailing Network",
         "location": "Barcelona",
-        "title": "Web Designer & Front-End",
+        "title": "Front-End and Web Designer",
         "years": "2011 - 2014",
-        "description": "Designed and programmed emails, using A/B testing to enhance click-through conversion and optimise outcomes. Rebranded clicplan.com and oferting.es which drove international sales growth."
+        "description": "<p>Designed and programmed emails, using A/B testing to enhance click-through conversion and optimise outcomes.</p> <p>Rebranded <a href='https://www.clicplan.com/' target='_blank'>clicplan.com</a> and <a href='http://www.oferting.es/' target='_blank'>oferting.es</a> which drove international sales growth.</p>"
       },
       {
         "company": "Ogilvy & Mather",
         "location": "Barcelona",
-        "title": "Web Designer & Front-End",
+        "title": "Front-End and Web Designer",
         "years": "2009 - 2011",
-        "description": "Designed and programmed segmented email campaigns, landing pages, animated banners, and website updates for clients such as Nestle, Amstel and CaixaBank."
+        "description": "<p>Designed and programmed segmented email campaigns, landing pages, animated banners, and website updates for clients such as <a href='https://www.nestle.es/' target='_blank'>nestle.es</a>, <a href='https://www.amstel.es/' target='_blank'>amstel.es</a> and <a href='https://www.caixabank.es/' target='_blank'>caixabank.es</a>.</p>"
       }
     ],
     "skills": [
       {
-        "name": "HTML / CSS / Bootstrap",
-        "level": "90%"
+        "name": "HTML / CSS"
       },
       {
-        "name": "SQL, NoSQL",
-        "level": "50%"
+        "name": "Javascript"
       },
       {
-        "name": "Github, Heroku",
-        "level": "80%"
+        "name": "React.js"
       },
       {
-        "name": "NodeJS / ExpressJS",
-        "level": "80%"
+        "name": "RESTful API Development"
       },
       {
-        "name": "JavaScript",
-        "level": "90%"
+        "name": "Node"
       },
       {
-        "name": "React",
-        "level": "90%"
+        "name": "ExpressJS"
       },
       {
-        "name": "GraphQL",
-        "level": "70%"
+        "name": "GraphQL"
       },
       {
-        "name": "APIs",
-        "level": "90%"
+        "name": "SQL, NoSQL"
       },
       {
-        "name": "Photoshop",
-        "level": "90%"
+        "name": "Git flow"
       },
       {
-        "name": "Illustrator / Indesign",
-        "level": "90%"
+        "name": "CI/CD deployment"
       },
       {
-        "name": "Adobe XD / Sketch",
-        "level": "90%"
+        "name": "Agile"
+      },
+      {
+        "name": "Shopify, Wordpress, BigCommerce"
+      },
+      {
+        "name": "Gatsby.js"
+      },
+      {
+        "name": "Contentful"
+      },
+      {
+        "name": "Netlify"
+      },
+      {
+        "name": "UI/UX"
       }
     ],
     "personalSkills": [
+      "Adobe XD, Skecth, Figma",
+      "Photoshop, Illustrator",
       "Creativity",
-      "Problem-Solving",
-      "Self-upskilling",
-      "Innovative"
+      "Problem-Solving"
     ],
     "languages": ["English", "Spanish", "Catalan"],
     "hobbies": [
@@ -158,7 +169,7 @@
       },
       {
         "title": "Pose-It",
-        "description": "Fashion App designed to let users build up a wardrobe of inspiration on their digital device. A full stack web development application, it allows users to record outfits, uploads photos and details, filter all user posts to find outfits to match their specific criteria, save them to their personal dashboard and delete any items that they are no longer interested in.",
+        "description": "A full stack application; it allows users to save outfits, uploads photos and details, filter results to find outfits, and save / delete them from their personal dashboard.",
         "image": "project_8.jpg",
         "technology": "Node.js, Express.js, Handlebars.js, MySQL, Sequelize ORM, CSS, Git Hub.",
         "url": "https://pose-it-app.herokuapp.com/",
@@ -166,7 +177,7 @@
       },
       {
         "title": "Blog",
-        "description": "A CMS-style blog site where users can publish their blog posts and comment on other developers’ posts as well. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.",
+        "description": "A CMS-style blog site where users can publish posts and comment on other. The app follows the MVC paradigm, using Handlebars.js, Sequelize, and express-session for authentication.",
         "image": "project_7.jpg",
         "technology": "Node.js, Express.js, Handlebars.js, MySQL, Sequelize ORM, CSS, Git Hub.",
         "url": "https://raul-tech-blog.herokuapp.com/",
@@ -182,7 +193,7 @@
       },
       {
         "title": "Hammered Horror",
-        "description": "The Hammered Horror application is a web-based film generator application. During the pandemic people are watching a lot more films. As a team we decided to develop an application based on the Horror genre",
+        "description": "Film application based on the Horror genre, it helps you to chose a movie based on filters and ratings extracted from a Third API.",
         "image": "project_5.jpg",
         "technology": "HTML, CSS, Frameworks, JavaScript, API’s, Git Hub.",
         "url": "https://itsraulsanz.github.io/trilogy-film-project/index.html",
@@ -198,7 +209,7 @@
       },
       {
         "title": "Work Day Scheduler",
-        "description": "Calendar application that allows a user to save events for each business hour of the day. The current day and hour is displayed in the header. Each timeblock is colored indicating whether it is in the past, present, or future.",
+        "description": "Calendar application that allows a user to save events. Each timeblock is colored indicating whether it is in the past, present, or future.",
         "image": "project_3.jpg",
         "technology": "HTML, CSS, Frameworks, JavaScript, Git Hub.",
         "url": "https://itsraulsanz.github.io/plan-your-day/",

@@ -1,6 +1,6 @@
 import React from 'react';
-import WorkData from '../../workData.json';
-import Card from './Card';
+import WorkData from '../workData.json';
+import Card from '../components/card';
 
 export default function Projects() {
   return (
