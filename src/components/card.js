@@ -3,9 +3,7 @@ import React from 'react';
 export default function Card(props) {
 var projectImage = '../images/projects/' + props.image;
   return (
-      
-    <div>
-      <section>
+    <section className="project">
         <img
           className="card-img"
           src={projectImage}
@@ -19,7 +17,6 @@ var projectImage = '../images/projects/' + props.image;
           <a href={props.url} rel='noopener noreferrer' target="_blank" className="btn btn-primary">Deployed app</a>
           <a href={props.repo} rel='noopener noreferrer' target="_blank" className="btn btn-primary">Repository</a>
         </div>
-      </section>
-    </div>
+    </section>
   );
 }
