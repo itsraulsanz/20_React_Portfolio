@@ -1,0 +1,106 @@
+/* CONTACT */
+
+section.contact {
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 50px 0;
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 88%;
+        width: 100%;
+        gap: 5%;
+        align-self: center;
+
+        @media only screen and (min-width: 550px) {
+            flex-direction: row;
+        }
+
+        h2 {
+            text-align: left;
+            padding-bottom: 10px;
+            margin-bottom: 35px;
+            border-bottom: 1px solid;
+            border-right: none;
+
+            &::before { 
+                display: block; 
+                content: " "; 
+                margin-top: -285px; 
+                height: 285px; 
+                visibility: hidden; 
+                pointer-events: none;
+            }
+        }
+
+        .contact-info {
+            flex-direction: column;
+            width: 100%;
+            justify-content: flex-start;
+            padding: 0;
+            padding-bottom: 40px;
+            margin: 0;
+            z-index: 1;
+
+            @media only screen and (min-width: 550px) {
+                width: 40%;
+            }
+              
+            .contact-details ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+
+            ul.contact_icons {
+                display: flex;
+                gap: 15px;
+                list-style-type: none;
+                padding-top: 10px;
+
+                a:hover svg {
+                    fill: var(--secondary);
+                }
+              }
+              
+              svg {
+                fill: var(--dark);
+            }
+        }
+
+        .contact-form {
+            flex-direction: column;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+
+            @media only screen and (min-width: 550px) {
+                width: 60%;
+            }
+
+            .form {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: stretch;
+                align-content: stretch;
+            }
+              
+            .form input {
+                margin-bottom: 10px;
+            }
+              
+            .form .btn-primary {
+                margin-top: 15px;
+                width: 30%;
+            }
+
+            textarea {
+                min-height: 110px;
+            }
+        }
+    }
+}
