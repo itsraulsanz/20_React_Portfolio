@@ -1,7 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { validateEmail } from "../../utils/helpers";
 import WorkData from "../../workData.json";
 import './contact.scss'
+
+import emailjs from '@emailjs/browser';
+
+require('dotenv').config();
+const {REACT_APP_YOUR_SERVICE_ID,REACT_APP_YOUR_TEMPLATE_ID,REACT_APP_YOUR_PUBLIC_KEY} = process.env
 
 export default function ContactForm() {
   if (WorkData.resume) {
@@ -33,6 +38,7 @@ export default function ContactForm() {
     }
   };
 
+  const form = useRef();
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
@@ -53,6 +59,13 @@ export default function ContactForm() {
     setName("");
     setEmail("");
     setMessage("");
+
+    emailjs.sendForm(REACT_APP_YOUR_SERVICE_ID, REACT_APP_YOUR_TEMPLATE_ID, form.current, REACT_APP_YOUR_PUBLIC_KEY)
+    .then((result) => {
+        // show the user a success message
+    }, (error) => {
+        // show the user an error
+    });
   };
 
   return (
@@ -91,7 +104,7 @@ export default function ContactForm() {
 
         <section className="contact-form">
           <div className="contact-title"><h2>Form</h2></div>
-          <form className="form">
+          <form className="form" ref={form} onSubmit={handleFormSubmit}>
             <input
               value={email}
               name="email"
@@ -115,7 +128,7 @@ export default function ContactForm() {
             />
             <button
               className="btn btn-primary"
-              type="button"
+              type="submit" value="Send"
               onClick={handleFormSubmit}
             >
               Submit
