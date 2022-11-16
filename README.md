@@ -50,7 +50,7 @@ Contributions, issues and feature requests are welcome.
 
 ## Questions
 
-Github: <a href="https://github.com/itsraulsanz/">https://github.com/itsraulsanz/</a><br />
+Github: <a href="https://github.com/itsraulsanz/" target="_blank">https://github.com/itsraulsanz/</a><br />
 
 
 ---
