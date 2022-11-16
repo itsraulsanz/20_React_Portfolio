@@ -1,0 +1,32 @@
+section.about-me {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 50px 0;
+
+    div.about-me_container {
+        max-width: 88%;
+        align-self: center;
+
+        h2 {
+            text-align: left;
+            padding-bottom: 10px;
+            margin-bottom: 35px;
+            border-bottom: 1px solid;
+            border-right: none;
+
+            &::before { 
+                display: block; 
+                content: " "; 
+                margin-top: -140px; 
+                height: 140px; 
+                visibility: hidden; 
+                pointer-events: none;
+            }
+        }
+    }
+}
+
