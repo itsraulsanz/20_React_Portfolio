@@ -10,6 +10,11 @@ section.resume {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 88%;
+
+    @media only screen and (min-width: 1200px) {
+        max-width: 1200px;
+    }
   }
   
   .resume_container h2 {
@@ -36,9 +41,6 @@ section.resume {
   .resume_container .row {
     margin: 0 0 60px;
 
-    &.work {
-        max-width: 88%;
-    }
     &.education {
         background: rgba(255, 255, 255, 0.8);
         color: black;
@@ -210,7 +212,6 @@ section.resume {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    max-width: 88%;
 
     @media only screen and (max-width: 500px) {
         flex-direction: column;

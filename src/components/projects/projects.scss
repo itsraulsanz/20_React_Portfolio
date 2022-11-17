@@ -13,6 +13,10 @@ section.projects {
         max-width: 88%;
         align-self: center;
 
+        @media only screen and (min-width: 1200px) {
+            max-width: 1200px;
+        }
+
         h2 {
             text-align: left;
             padding-bottom: 10px;
@@ -69,11 +73,13 @@ section.projects {
 
                 img {
                     width: 100%;
+                    height: auto;
                     border-radius: 5px;
                     padding: 0;
     
                     @media only screen and (min-width: 700px) {
                         width: 52%;
+                        height: auto;
                     }
                 }
             }
