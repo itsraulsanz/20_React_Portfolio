@@ -10,6 +10,11 @@ section.resume {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 88%;
+
+    @media only screen and (min-width: 1200px) {
+        max-width: 1200px;
+    }
   }
   
   .resume_container h2 {
@@ -36,9 +41,6 @@ section.resume {
   .resume_container .row {
     margin: 0 0 60px;
 
-    &.work {
-        max-width: 88%;
-    }
     &.education {
         background: rgba(255, 255, 255, 0.8);
         color: black;
@@ -69,6 +71,17 @@ section.resume {
     @media only screen and (max-width: 500px) {
         flex-direction: column;
         border-left: 1px solid;
+    }
+
+    .details a {
+        color: var(--primary);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        text-decoration-thickness: 0px;
+
+        &:hover {
+            color: var(--light);
+        }
     }
   }
   
@@ -210,7 +223,6 @@ section.resume {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    max-width: 88%;
 
     @media only screen and (max-width: 500px) {
         flex-direction: column;
@@ -226,6 +238,11 @@ section.resume {
                 margin: 0 0 20px;
             }
         }
+
+        .skill .skill_title {
+            background-color: #D6E2CB;
+            color: var(--dark);
+        }
     }
     .skills_right {
         width: 48%;
@@ -236,6 +253,16 @@ section.resume {
             .row {
                 margin: 0 0 20px;
             }
+        }
+
+        .personal_Skill .skill_title {
+            background-color: #5FD1DD;
+            color: var(--dark);
+        }
+
+        .languages .skill_title {
+            background-color: #FFD780;
+            color: var(--dark);
         }
     }
   }

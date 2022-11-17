@@ -162,7 +162,7 @@
       {
         "title": "Castaway",
         "description": "Podcasting app designed to make the search and navigation easier.",
-        "image": "project_9.png",
+        "image": "project_9.webp",
         "technology": "MERN stack set up, with Apollo Server and graphQL.",
         "url": "https://podcastaway-app.herokuapp.com",
         "repo": "https://github.com/itsraulsanz/castaway-app"
@@ -170,7 +170,7 @@
       {
         "title": "Pose-It",
         "description": "A full stack application; it allows users to save outfits, uploads photos and details, filter results to find outfits, and save / delete them from their personal dashboard.",
-        "image": "project_8.jpg",
+        "image": "project_8.webp",
         "technology": "Node.js, Express.js, Handlebars.js, MySQL, Sequelize ORM, CSS, Git Hub.",
         "url": "https://pose-it-app.herokuapp.com/",
         "repo": "https://github.com/itsraulsanz/pose-it-app"
@@ -178,7 +178,7 @@
       {
         "title": "Blog",
         "description": "A CMS-style blog site where users can publish posts and comment on other. The app follows the MVC paradigm, using Handlebars.js, Sequelize, and express-session for authentication.",
-        "image": "project_7.jpg",
+        "image": "project_7.webp",
         "technology": "Node.js, Express.js, Handlebars.js, MySQL, Sequelize ORM, CSS, Git Hub.",
         "url": "https://raul-tech-blog.herokuapp.com/",
         "repo": "https://github.com/itsraulsanz/Raul-Blog"
@@ -186,7 +186,7 @@
       {
         "title": "Note-Taker",
         "description": "Application to write and save notes. This application uses an Express.js back end and saves and retrieves note data from a JSON file.",
-        "image": "project_6.jpg",
+        "image": "project_6.webp",
         "technology": "Express.js, HTML, CSS, Git Hub.",
         "url": "https://murmuring-island-71920.herokuapp.com/",
         "repo": "https://github.com/itsraulsanz/Note-Taker"
@@ -194,7 +194,7 @@
       {
         "title": "Hammered Horror",
         "description": "Film application based on the Horror genre, it helps you to chose a movie based on filters and ratings extracted from a Third API.",
-        "image": "project_5.jpg",
+        "image": "project_5.webp",
         "technology": "HTML, CSS, Frameworks, JavaScript, API’s, Git Hub.",
         "url": "https://itsraulsanz.github.io/trilogy-film-project/index.html",
         "repo": "https://github.com/itsraulsanz/trilogy-film-project"
@@ -202,7 +202,7 @@
       {
         "title": "Weather Dashboard",
         "description": "Weather outlook for multiple cities that shows the current and the weather for the next 5 days. It's built using [OpenWeather API] to retrieve weather data for cities.",
-        "image": "project_4.jpg",
+        "image": "project_4.webp",
         "technology": "HTML, CSS, Frameworks, JavaScript, API’s, Git Hub.",
         "url": "https://itsraulsanz.github.io/weather-forecast/",
         "repo": "https://github.com/itsraulsanz/weather-forecast"
@@ -210,7 +210,7 @@
       {
         "title": "Work Day Scheduler",
         "description": "Calendar application that allows a user to save events. Each timeblock is colored indicating whether it is in the past, present, or future.",
-        "image": "project_3.jpg",
+        "image": "project_3.webp",
         "technology": "HTML, CSS, Frameworks, JavaScript, Git Hub.",
         "url": "https://itsraulsanz.github.io/plan-your-day/",
         "repo": "https://github.com/itsraulsanz/plan-your-day"
