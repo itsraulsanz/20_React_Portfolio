@@ -72,6 +72,17 @@ section.resume {
         flex-direction: column;
         border-left: 1px solid;
     }
+
+    .details a {
+        color: var(--primary);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        text-decoration-thickness: 0px;
+
+        &:hover {
+            color: var(--light);
+        }
+    }
   }
   
   .title {
@@ -227,6 +238,11 @@ section.resume {
                 margin: 0 0 20px;
             }
         }
+
+        .skill .skill_title {
+            background-color: #D6E2CB;
+            color: var(--dark);
+        }
     }
     .skills_right {
         width: 48%;
@@ -237,6 +253,16 @@ section.resume {
             .row {
                 margin: 0 0 20px;
             }
+        }
+
+        .personal_Skill .skill_title {
+            background-color: #5FD1DD;
+            color: var(--dark);
+        }
+
+        .languages .skill_title {
+            background-color: #FFD780;
+            color: var(--dark);
         }
     }
   }
