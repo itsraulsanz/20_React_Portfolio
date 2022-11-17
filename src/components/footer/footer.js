@@ -1,5 +1,6 @@
 import React from "react";
-import WorkData from "../workData.json";
+import WorkData from "../../workData.json";
+import './footer.scss'
 
 export default function Footer() {
   if (WorkData.resume) {
@@ -9,7 +10,7 @@ export default function Footer() {
   }
 
   return (
-    <div className="footer-container">
+    <div className="footer_container">
       <div className="footer_email">
         <a href={email} rel="noopener noreferrer" target="_blank">
           {WorkData.main.email}
