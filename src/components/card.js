@@ -8,6 +8,8 @@ var projectImage = '../images/projects/' + props.image;
           className="card-img"
           src={projectImage}
           alt={props.title}
+          width="1200px"
+          height="720px"
         />
         <div className="card-body">
           <h3 className="card-title">{props.title}</h3>
