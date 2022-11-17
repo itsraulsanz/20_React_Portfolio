@@ -12,7 +12,14 @@ export default function Projects() {
       <div className="projects_container">
         <h2 id="projects">Projects</h2>
         <div className="projects_scroll">
-          <Carousel showThumbs={false}>
+          <Carousel
+            showThumbs={false}
+            showStatus={false}
+            infiniteLoop={true}
+            autoPlay={true}
+            interval={7000}
+            transitionTime={1000}
+          >
             {WorkData.portfolio.projects.map((projects) => (
               <Card key={projects.title} title={projects.title} description={projects.description} image={projects.image} technology={projects.technology} url={projects.url} repo={projects.repo} />
             ))}
