@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "sanzraul-portfolio",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -56,14 +56,7 @@
     "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.0",
     "css-loader": "^5.2.7",
-    "gatsby-plugin-sass": "^6.0.0",
-    "https-browserify": "^1.0.0",
-    "os-browserify": "^0.3.0",
-    "process": "^0.11.10",
-    "react-app-rewired": "^2.2.1",
-    "stream-browserify": "^3.0.0",
-    "stream-http": "^3.2.0",
-    "url": "^0.11.0"
+    "style-loader": "^3.1.0"
   },
   "description": "## Table of contents",
   "main": "webpack.config.js",
@@ -71,8 +64,11 @@
     "type": "git",
     "url": "git+https://github.com/itsraulsanz/20_React_Portfolio.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "portfolio-raul-sanz"
+  ],
+  "author": "Raul Sanz",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/itsraulsanz/20_React_Portfolio/issues"
   },
