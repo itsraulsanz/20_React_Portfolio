@@ -55,11 +55,13 @@
     "type": "git",
     "url": "git+https://github.com/itsraulsanz/RaulPortfolio"
   },
+  "homepage": "https://github.com/itsraulsanz/RaulPortfolio",
   "keywords": [
     "portfolio-raul-sanz"
   ],
   "author": "Raul Sanz",
   "license": "MIT",
+  "main": "n/a",
   "bugs": {
     "url": "https://github.com/itsraulsanz/RaulPortfolio/issues"
   }
