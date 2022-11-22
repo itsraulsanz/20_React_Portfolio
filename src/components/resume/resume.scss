@@ -10,6 +10,7 @@ section.resume {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-self: center;
     max-width: 88%;
 
     @media only screen and (min-width: 1200px) {
@@ -42,9 +43,12 @@ section.resume {
     margin: 0 0 60px;
 
     &.education {
+        width: 100vw;
+        max-width: 1350px;
         background: rgba(255, 255, 255, 0.8);
         color: black;
         padding: 6%;
+
     }
     &.personal_Skill {
         margin: 0 0 48px;

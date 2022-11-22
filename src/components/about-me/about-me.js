@@ -1,7 +1,7 @@
 import React from "react";
 import WorkData from "../../workData.json";
 import './about-me.scss'
-import profileImage from "../../images/profile_img.jpg";
+var profileImage = "../../images/profile_img.jpg";
 
 export default function AboutMe() {
 
