@@ -1,9 +1,9 @@
 import React from "react";
 import WorkData from "../../workData.json";
 import './about-me.scss'
+import profileImage from "../../images/profile_img.jpg";
 
 export default function AboutMe() {
-  var profileImage = "../images/profile_img.jpg";
 
   var bioText = WorkData.main.bio.map(function (bio, index) {
     return <p key={index}>{bio.text}</p>;

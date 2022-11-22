@@ -62,10 +62,14 @@
     "type": "git",
     "url": "git+https://github.com/itsraulsanz/RaulPortfolio"
   },
-  "author": "",
-  "license": "ISC",
+  "homepage": "https://sanzraul.netlify.app",
+  "keywords": [
+    "portfolio-raul-sanz"
+  ],
+  "author": "Raul Sanz",
+  "license": "MIT",
+  "main": "n/a",
   "bugs": {
     "url": "https://github.com/itsraulsanz/RaulPortfolio/issues"
-  },
-  "homepage": "https://github.com/itsraulsanz/RaulPortfolio#readme"
+  }
 }
