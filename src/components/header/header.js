@@ -1,6 +1,6 @@
 import React from "react";
 import './header.scss'
-import Logo from "../../images/logo.svg";
+var Logo = "../../images/logo.svg";
 
 export default function Header() {
   return (
