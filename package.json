@@ -48,13 +48,8 @@
   },
   "devDependencies": {
     "css-loader": "^5.2.7",
-    "gatsby-plugin-sass": "^6.0.0",
-    "https-browserify": "^1.0.0",
-    "os-browserify": "^0.3.0",
     "process": "^0.11.10",
     "react-app-rewired": "^2.2.1",
-    "stream-browserify": "^3.0.0",
-    "stream-http": "^3.2.0",
     "url": "^0.11.0"
   },
   "description": "## Table of contents",
