@@ -72,17 +72,33 @@ section.projects {
             .slide {
                 padding-bottom: 40px;
 
-                img {
+                .project_image-container {
                     width: 100%;
                     height: auto;
                     border-radius: 5px;
                     padding: 0;
     
                     @media only screen and (min-width: 700px) {
-                        width: 52%;
+                        width: 50%;
                         height: auto;
                     }
                 }
+
+                img {
+                    height: auto;
+                }
+
+                // .project_image-container {
+                //     width: 100%;
+                //     height: auto;
+                //     border-radius: 5px;
+                //     padding: 0;
+    
+                //     @media only screen and (min-width: 700px) {
+                //         width: 52%;
+                //         height: auto;
+                //     }
+                // }
             }
         }
 
@@ -93,6 +109,7 @@ section.projects {
 
             @media only screen and (min-width: 700px) {
                 padding-left: 30px;
+                width: 50%;
             }
 
             .card-title {

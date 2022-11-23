@@ -4,13 +4,15 @@ export default function Card(props) {
 var projectImage = '../images/projects/' + props.image;
   return (
     <section className="project">
-        <img
-          className="card-img"
-          src={projectImage}
-          alt={props.title}
-          width="1200px"
-          height="720px"
-        />
+        <div className='project_image-container'>
+          <img
+            className="card-img"
+            src={projectImage}
+            alt={props.title}
+            width="1200px"
+            height="720px"
+          />
+        </div>
         <div className="card-body">
           <h3 className="card-title">{props.title}</h3>
           <p className="card-text">{props.description}</p>
